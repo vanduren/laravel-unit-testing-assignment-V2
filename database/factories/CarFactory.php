@@ -16,8 +16,9 @@ class CarFactory extends Factory
      */
     public function definition()
     {
+        $cars_make = ['ford' ,'honda', 'toyota'];
         return [
-            'make' => $this->faker->randomElement(['ford' ,'honda', 'toyota']),
+            'make' => $this->faker->randomElement($cars_make),
             'model' => $this->faker->company,
             'year' => $this->faker->year,
         ];
