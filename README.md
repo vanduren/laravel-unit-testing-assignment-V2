@@ -1,7 +1,13 @@
 
 ### Project based on https://github.com/amirgee007/laravel-unit-testing-assignment 
-# Created in laravel 9 with cars example and tests
+## Created in laravel 9 with cars example and tests (and breeze)
+### After install:
+- composer update
+- npm install && npm run dev (or watch)
 
+
+## ==================================================
+## Original info
 ## Mini Project 2nd
 
 In this project you need to create a NEW Laravel site and complete the following,
